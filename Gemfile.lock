@@ -1,0 +1,27 @@
+PATH
+  remote: ../rubim
+  specs:
+    rubim (0.1.0)
+      dry-configurable (~> 0.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.5)
+    dry-configurable (0.7.0)
+      concurrent-ruby (~> 1.0)
+    rack (2.0.3)
+    rack-unreloader (1.6.0)
+    roda (3.1.0)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-unreloader
+  roda
+  rubim!
+
+BUNDLED WITH
+   1.16.0
